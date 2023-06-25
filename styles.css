@@ -1,0 +1,191 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+
+#nav{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   height: 20px;
+   width: 100%;
+}
+
+h2{
+    padding-right: 30px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.about li{
+    list-style-type: none;
+    display: inline-block;
+    padding:8px
+}
+
+.abouts li{
+    list-style-type: none;
+    display: inline-block;
+    padding:8px
+}
+
+.about ul{
+    padding-left: 50px;
+    padding-right: 300px;
+}
+
+
+#display{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-image{
+    height: 100vh;
+    width: 300px;
+}
+
+.left-image img{
+    height: 400px;
+    width: 1520px; 
+}
+
+.right-content{
+    padding-top: 150px;
+}
+
+.right-content button{
+    background-color: blue;
+    color: aliceblue;
+    text-decoration: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.items{
+    padding: 50px;
+    text-align: center;
+}
+
+#other-links{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.link-details{
+    padding: 10px;
+    width: 300px;
+}
+
+.link-details img{
+    width: 300px;
+}
+
+#posters{
+    height: 500px;
+    width: 1000;
+    margin: 50px;
+    display: flex;
+}
+
+.left-poster{
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+
+.content{
+    padding: 200px;
+}
+
+.content button{
+    background-color: blue;
+    color: aliceblue;
+    text-decoration: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.right-poster img{
+    height: 100%
+}
+
+.business-content{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.business{
+    padding: 10px;
+    width: 300px;
+}
+
+.business img{
+    width: 300px;
+}
+
+.fonts{
+    padding: 15px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    margin-right: 200px;
+    }
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.details li a{
+    text-decoration: none;
+    color: rgb(154, 136, 112);
+    list-style-type: none;
+    line-height:40px;
+}
+
+.details li{
+    text-decoration: none;
+    color: rgb(154, 136, 112);
+    list-style-type: none;
+    line-height:40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.foot li{
+    color: black;
+    display: inline-block;
+    padding: 10px;
+}
